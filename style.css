@@ -1,0 +1,38 @@
+h4{
+    font-size: 50;
+}
+.modal button{
+    font-size: 50;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    background-color: aliceblue;
+    font-size: 40px;
+    color:midnightblue;
+}
+
+#show_sketches{
+    float: right;
+}
+
+p{
+    font-size: 25px;
+}
+
+canvas{
+    border-radius: 25px;
+    border: rgb(241, 175, 69) solid;
+    margin-top: 100px;
+    animation-name: sketch;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+    from{box-shadow: 10px 10px 30px grey;}
+    to{box-shadow: 10px 10px 30px white;}
+}
